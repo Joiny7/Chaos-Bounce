@@ -1,0 +1,491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef8cf907f2f9c242951a5bd741bbbef, type: 3}
+  m_Name: Achievement Database
+  m_EditorClassIdentifier: 
+  achievements:
+    array:
+    - id: LVL25
+      title: Level 25
+      description: Reach level 25
+      property:
+        type: 1
+        amount: 25
+        incrementsAcrossSessions: 0
+    - id: LVL50
+      title: Level 50
+      description: Reach level 50
+      property:
+        type: 1
+        amount: 50
+        incrementsAcrossSessions: 0
+    - id: LVL100
+      title: Level 100
+      description: Reach level 100
+      property:
+        type: 1
+        amount: 100
+        incrementsAcrossSessions: 0
+    - id: LVL200
+      title: Level 200
+      description: Reach level 200
+      property:
+        type: 1
+        amount: 200
+        incrementsAcrossSessions: 0
+    - id: LVL500
+      title: Level 500
+      description: Reach level 500
+      property:
+        type: 1
+        amount: 500
+        incrementsAcrossSessions: 0
+    - id: LVL1K
+      title: Level 1000
+      description: Reach level 1000
+      property:
+        type: 1
+        amount: 1000
+        incrementsAcrossSessions: 0
+    - id: LVL2K
+      title: Level 2000
+      description: Reach level 2000
+      property:
+        type: 1
+        amount: 2000
+        incrementsAcrossSessions: 0
+    - id: LVL5K
+      title: Level 5000
+      description: Reach level 5000
+      property:
+        type: 1
+        amount: 5000
+        incrementsAcrossSessions: 0
+    - id: LVL10K
+      title: Level 10000
+      description: Reach level 10000
+      property:
+        type: 1
+        amount: 10000
+        incrementsAcrossSessions: 0
+    - id: LVL20K
+      title: Level 20000
+      description: Reach level 20000
+      property:
+        type: 1
+        amount: 20000
+        incrementsAcrossSessions: 0
+    - id: DSTRBLCKS100
+      title: Blocks 100
+      description: Destroy 100 blocks
+      property:
+        type: 9
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: DSTRBLCKS500
+      title: Blocks 500
+      description: Destroy 500 blocks
+      property:
+        type: 9
+        amount: 500
+        incrementsAcrossSessions: 1
+    - id: DSTRBLCKS1K
+      title: Blocks 1000
+      description: Destroy 1000 blocks
+      property:
+        type: 9
+        amount: 1000
+        incrementsAcrossSessions: 1
+    - id: DSTRBLCKS2K
+      title: Blocks 2000
+      description: Destroy 2000 blocks
+      property:
+        type: 9
+        amount: 2000
+        incrementsAcrossSessions: 1
+    - id: DSTRBLCKS5K
+      title: Blocks 5000
+      description: Destroy 5000 blocks
+      property:
+        type: 9
+        amount: 5000
+        incrementsAcrossSessions: 1
+    - id: DSTRBLCKS10K
+      title: Blocks 10K
+      description: Destroy 10000 blocks
+      property:
+        type: 9
+        amount: 10000
+        incrementsAcrossSessions: 1
+    - id: DSTRBLCKS20K
+      title: Blocks 20000
+      description: Destroy 20000 blocks
+      property:
+        type: 9
+        amount: 20000
+        incrementsAcrossSessions: 1
+    - id: DSTRBLCKS50K
+      title: Blocks 50K
+      description: Destroy 50000 blocks
+      property:
+        type: 9
+        amount: 50000
+        incrementsAcrossSessions: 1
+    - id: DSTRBLCKS100K
+      title: Blocks 100.000.000
+      description: Destroy 100000 blocks
+      property:
+        type: 9
+        amount: 100000
+        incrementsAcrossSessions: 1
+    - id: ORBS50
+      title: 50 Orbs
+      description: Collect 50 orbs
+      property:
+        type: 4
+        amount: 50
+        incrementsAcrossSessions: 1
+    - id: ORBS100
+      title: 100 Orbs
+      description: Collect 100 orbs
+      property:
+        type: 4
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: ORBS200
+      title: 200 Orbs
+      description: Collect 200 orbs
+      property:
+        type: 4
+        amount: 200
+        incrementsAcrossSessions: 1
+    - id: ORBS500
+      title: 500 Orbs
+      description: Collect 500 orbs
+      property:
+        type: 4
+        amount: 500
+        incrementsAcrossSessions: 1
+    - id: ORBS1K
+      title: 1000 Orbs
+      description: Collect 1000 orbs
+      property:
+        type: 4
+        amount: 1000
+        incrementsAcrossSessions: 1
+    - id: ORBS2K
+      title: 2000 Orbs
+      description: Collect 2000 orbs
+      property:
+        type: 4
+        amount: 2000
+        incrementsAcrossSessions: 1
+    - id: ORBS5K
+      title: 5000 Orbs
+      description: Collect 5000 orbs
+      property:
+        type: 4
+        amount: 5000
+        incrementsAcrossSessions: 1
+    - id: ORBS10K
+      title: 10000 Orbs
+      description: Collect 10000 orbs
+      property:
+        type: 4
+        amount: 10000
+        incrementsAcrossSessions: 1
+    - id: ORBS20K
+      title: 20000 Orbs
+      description: Collect 20000 orbs
+      property:
+        type: 4
+        amount: 20000
+        incrementsAcrossSessions: 1
+    - id: EARTHDIED1
+      title: 1 EARTH DIED
+      description: You lost 1 time
+      property:
+        type: 3
+        amount: 1
+        incrementsAcrossSessions: 1
+    - id: EARTHDIED10
+      title: 10 EARTHS DIED
+      description: You lost 10 times
+      property:
+        type: 3
+        amount: 10
+        incrementsAcrossSessions: 1
+    - id: EARTHDIED50
+      title: 50 EARTHS DIED
+      description: You lost 50 times
+      property:
+        type: 3
+        amount: 50
+        incrementsAcrossSessions: 1
+    - id: EARTHDIED100
+      title: 100 EARTHS DIED
+      description: You lost 100 times
+      property:
+        type: 3
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: EARTHDIED1K
+      title: 1000 EARTHS DIED
+      description: You lost 1000 times
+      property:
+        type: 3
+        amount: 1000
+        incrementsAcrossSessions: 1
+    - id: CLCTBLPWRP1USE
+      title: Power-up
+      description: Use collectable power-up
+      property:
+        type: 2
+        amount: 1
+        incrementsAcrossSessions: 1
+    - id: CLCTBLPWRP10USE
+      title: Power-ups 10 times
+      description: Use collectable power-ups 10 times
+      property:
+        type: 2
+        amount: 10
+        incrementsAcrossSessions: 1
+    - id: CLCTBLPWRP100USE
+      title: Power-ups 100 times
+      description: Use collectable power-ups 100 times
+      property:
+        type: 2
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: CLCTBLPWRP1KUSE
+      title: Power-ups 1000 times
+      description: Use collectable power-ups 1000 times
+      property:
+        type: 2
+        amount: 1000
+        incrementsAcrossSessions: 1
+    - id: PCKUPRTR10
+      title: Rotator 10
+      description: Pick up rotators 10 times
+      property:
+        type: 7
+        amount: 10
+        incrementsAcrossSessions: 1
+    - id: PCKUPRTR100
+      title: Rotator 100
+      description: Pick up rotators 100 times
+      property:
+        type: 7
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: PCKUPRTR500
+      title: Rotator 500
+      description: Pick up rotators 500 times
+      property:
+        type: 7
+        amount: 500
+        incrementsAcrossSessions: 1
+    - id: PCKUPRTR1K
+      title: Rotator 1000
+      description: Pick up rotators 1000 times
+      property:
+        type: 7
+        amount: 1000
+        incrementsAcrossSessions: 1
+    - id: PCKUPICE10
+      title: Ice 10
+      description: Pick up Ice 10 times
+      property:
+        type: 5
+        amount: 10
+        incrementsAcrossSessions: 1
+    - id: PCKUPICE100
+      title: Ice 100
+      description: Pick up Ice 100 times
+      property:
+        type: 5
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: PCKUPICE500
+      title: Ice 500
+      description: Pick up Ice 500 times
+      property:
+        type: 5
+        amount: 500
+        incrementsAcrossSessions: 1
+    - id: PCKUPICE1K
+      title: Ice 1000
+      description: Pick up Ice 1000 times
+      property:
+        type: 5
+        amount: 1000
+        incrementsAcrossSessions: 1
+    - id: PCKUPMTL10
+      title: Metal 10
+      description: Pick up Metal 10 times
+      property:
+        type: 6
+        amount: 10
+        incrementsAcrossSessions: 1
+    - id: PCKUPMTL100
+      title: Metal 100
+      description: Pick up Metal 100 times
+      property:
+        type: 6
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: PCKUPMTL500
+      title: Metal 500
+      description: Pick up Metal 500 times
+      property:
+        type: 6
+        amount: 500
+        incrementsAcrossSessions: 1
+    - id: PCKUPMTL1K
+      title: Metal 1000
+      description: Pick up Metal 1000 times
+      property:
+        type: 6
+        amount: 1000
+        incrementsAcrossSessions: 1
+    - id: PCKUPFF10
+      title: FlippyFloop 10
+      description: Pick up FlippyFloop 10 times
+      property:
+        type: 8
+        amount: 10
+        incrementsAcrossSessions: 1
+    - id: PCKUPFF100
+      title: FlippyFloop 100
+      description: Pick up FlippyFloop 100 times
+      property:
+        type: 8
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: PCKUPFF500
+      title: FlippyFloop 500
+      description: Pick up FlippyFloop 500 times
+      property:
+        type: 8
+        amount: 500
+        incrementsAcrossSessions: 1
+    - id: PCKUPFF1K
+      title: FlippyFloop 1000
+      description: Pick up FlippyFloop 1000 times
+      property:
+        type: 8
+        amount: 1000
+        incrementsAcrossSessions: 1
+    - id: FIREUSE10
+      title: Fire 10
+      description: Use Fire 10 times
+      property:
+        type: 10
+        amount: 10
+        incrementsAcrossSessions: 1
+    - id: FIREUSE100
+      title: Fire 100
+      description: Use Fire 100 times
+      property:
+        type: 10
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: FIREUSE1K
+      title: Fire 1000
+      description: Use Fire 1000 times
+      property:
+        type: 10
+        amount: 1000
+        incrementsAcrossSessions: 1
+    - id: PLASMAUSE10
+      title: Plasma 10
+      description: Use Plasma 10 times
+      property:
+        type: 11
+        amount: 10
+        incrementsAcrossSessions: 1
+    - id: PLASMAUSE100
+      title: Plasma 100
+      description: Use Plasma 100 times
+      property:
+        type: 11
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: PLASMAUSE1K
+      title: Plasma 1000
+      description: Use Plasma 1000 times
+      property:
+        type: 11
+        amount: 1000
+        incrementsAcrossSessions: 1
+    - id: MAPKILLERUSE10
+      title: Nuke 10
+      description: Use Nuke 10 times
+      property:
+        type: 12
+        amount: 10
+        incrementsAcrossSessions: 1
+    - id: MAPKILLERUSE100
+      title: Nuke 100
+      description: Use Nuke 100 times
+      property:
+        type: 12
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: MAPKILLERUSE1K
+      title: Nuke 1000
+      description: Use Nuke 1000 times
+      property:
+        type: 12
+        amount: 1000
+        incrementsAcrossSessions: 1
+    - id: TRPLSHOTUSE10
+      title: Triple Shot 10
+      description: Use Tiple Shot 10 times
+      property:
+        type: 13
+        amount: 10
+        incrementsAcrossSessions: 1
+    - id: TRPLSHOTUSE100
+      title: Triple Shot 100
+      description: Use Tiple Shot 100 times
+      property:
+        type: 13
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: TRPLSHOTUSE1K
+      title: Triple Shot 1000
+      description: Use Tiple Shot 1000 times
+      property:
+        type: 13
+        amount: 1000
+        incrementsAcrossSessions: 1
+    - id: LIGHTNINGUSE10
+      title: Lightning 10
+      description: Use Lightning 10 times
+      property:
+        type: 14
+        amount: 10
+        incrementsAcrossSessions: 1
+    - id: LIGHTNINGUSE100
+      title: Lightning 100
+      description: Use Lightning 100 times
+      property:
+        type: 14
+        amount: 100
+        incrementsAcrossSessions: 1
+    - id: LIGHTNINGUSE1K
+      title: Lightning 1000
+      description: Use Lightning 1000 times
+      property:
+        type: 14
+        amount: 1000
+        incrementsAcrossSessions: 1

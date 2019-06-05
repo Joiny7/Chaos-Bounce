@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ball
+  - Enemy
+  - VisualOrb
+  - LoserLine
+  - Ammo
+  - Power-up
+  - Debris
+  - Plasma
+  - PauseButton
+  - Randomizer
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Orb
+  - Blocks
+  - LoserLine
+  - Power-up
+  - Debris
+  - Plasma
+  - Fire
+  - Top
+  - DebrisOrb
+  - Background
+  - VisionEaterMask
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Bottom
+    uniqueID: 2038229389
+    locked: 0
+  - name: Mid
+    uniqueID: 3100061411
+    locked: 0
+  - name: Top
+    uniqueID: 3139421381
+    locked: 0
+  - name: Effects
+    uniqueID: 2497078385
+    locked: 0
